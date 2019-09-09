@@ -13,9 +13,12 @@ gulp.task('minify.image', () => {
         .pipe(gulp.dest('../build/images/'))
 })
 
+
 gulp.task('copy.xml', function () {
     gulp.src('../images/**/*.xml')
         .pipe(gulp.dest('../build/images/'))
 })
 
+
 gulp.task('execute', ['minify.image', 'copy.xml'])
+
