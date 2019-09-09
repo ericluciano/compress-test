@@ -19,3 +19,4 @@ gulp.task('copy.xml', function () {
 })
 
 gulp.task('execute', ['minify.image', 'copy.xml'])
+
